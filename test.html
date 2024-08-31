@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* WhatsApp Chat Container */
+        .whatsapp-chat {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* WhatsApp Icon Styling */
+        .whatsapp-chat a img {
+            width: 48px;
+            height: 48px;
+        }
+        
+
+        /* Message Box Styling */
+        .message-box {
+          
+            position: absolute;
+            bottom: 60px; /* Adjusted based on icon size */
+            right: 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            width: 250px;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #333;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 50px;
+        }
+
+        /* Arrow Mark */
+        .message-box::before {
+          
+            position: absolute;
+            top: 50%;
+            left: -20px;
+            transform: translateY(-50%);
+            font-size: 20px;
+            color: #0E2E50;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 480px) {
+            .message-box {
+                width: 35px;
+                height: 40px;
+                font-size: 12px;
+                margin-bottom: 20px;
+            }
+
+            .whatsapp-chat a img {
+                width: 40px;
+                height: 40px;
+            }
+
+            .message-box::before {
+                left: -15px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- WhatsApp Icon and Message Box -->
+<div class="whatsapp-chat">
+    <a href="https://wa.me/8089535273" target="_blank">
+        <img src="icons8-whatsapp-48 (2).png" alt="WhatsApp Chat">
+    </a>
+
+    <!-- Message Box -->
+    
+</div>
+<div class="message-box">
+    Get expert guidence
+        </div>
+
+<script>
+   
+</script>
+
+</body>
+</html>
